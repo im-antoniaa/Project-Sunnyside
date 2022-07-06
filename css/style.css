@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, a {
+    font-family: 'Barlow', sans-serif;
+    color: var(--White);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 50px 0;
+    background-color: #3dbeff;
+    border: solid 3px blue;
+}
+.navbar-logo {
+    width: 20%;
+    padding: 0 35px;
+    border: solid 1px green;
+}
+.navbar-menu {
+    width: 80%;
+    text-align: right;
+    padding: 0 45px;
+    border: solid 1px green;
+}
+.navbar-menu-ul li {
+    display: inline-block;
+    padding: 15px 25px;
+    border: solid 1px violet;
+}
+.navbar-menu-item {
+    color: var(--White);
+}
+.navbar-menu-button {
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: var(--White);
+}
+.navbar-menu-button a {
+    font-family: 'Fraunces', serif;
+    color: var(--Very-dark-desaturated-blue);
+}
+.hero {
+    width: 100%;
+    height: 540px;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: solid 1px red;
+}
+.hero-center {
+    width: 50%;
+    margin: auto;
+}
+.hero-center h1{
+    font-family: 'Fraunces', serif;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding-top: 40px;
+}
+.hero-arrow {
+    display: block;
+    margin: auto;
+    padding-top: 70px;
+}
